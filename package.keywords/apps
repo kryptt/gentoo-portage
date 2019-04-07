@@ -1,0 +1,70 @@
+sci-geosciences/googleearth ~amd64
+
+x11-plugins/pidgin-skypeweb ~amd64
+x11-plugins/purple-facebook ~amd64
+x11-plugins/telegram-purple ~amd64
+
+<app-cdr/acetoneiso-2.4 ~amd64
+
+<net-wireless/reaver-1.5 ~amd64
+
+net-misc/teamviewer ~amd64
+
+<net-p2p/vuze-6 ~amd64
+
+# masked buggy version requires we use unstable
+<media-sound/spotify-1.1 ~amd64
+<dev-util/patchelf-0.10 ~amd64
+
+<net-p2p/syncthing-0.15 ~amd64
+
+<app-text/calibre-3.0 ~and64
+
+# signal
+net-im/signal-desktop-bin ~amd64
+
+# heroku and other misc apps
+=dev-util/heroku-client-9999-r2 ~amd64
+=dev-java/gcviewer-9999 ~amd64
+=media-fonts/steamfonts-1 ~amd64
+
+# shared updated glib instance
+<dev-util/gdbus-codegen-2.57 ~amd64
+<dev-libs/glib-2.57 ~amd64
+<dev-util/glib-utils-2.57 ~amd64
+<dev-cpp/glibmm-2.57 ~amd64
+=dev-lang/python-exec-9999 **
+
+# required by app-office/scribus-1.4.6::gentoo
+=media-libs/libjpeg-turbo-1.5.1 ~amd64
+
+# video transcoding (handbrake)
+media-video/handbrake ~amd64
+=media-libs/libbluray-1.0.0 ~amd64
+
+# required by app-emulation/snapd (argument)
+sys-apps/snap-confine ~amd64
+app-emulation/snapd ~amd64
+
+# WebTorrent
+net-p2p/webtorrent-desktop-bin ~amd64
+
+# inkspace
+<media-gfx/scour-0.37 ~amd64
+<app-text/aspell-0.60.8 ~amd64
+<media-gfx/inkscape-0.93 ~amd64
+
+# required by app-editors/atom (argument)
+<app-eselect/eselect-electron-3 ~amd64
+<app-editors/atom-1.24 ~amd64
+<dev-util/electron-1.8 ~amd64
+
+# required by net-im/slack-bin (argument)
+<net-im/slack-bin-3.6 ~amd64
+
+# required by electricsheep (argument)
+<media-libs/glee-5.5 ~amd64
+x11-misc/electricsheep ~amd64
+
+# required by plex-media-player (argument)
+<media-tv/plex-media-player-3 ~amd64

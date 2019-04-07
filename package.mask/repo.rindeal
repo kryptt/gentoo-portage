@@ -1,0 +1,7 @@
+dev-libs/glib::rindeal
+dev-python/pycurl::rindeal
+dev-util/gdbus-codegen::rindeal
+net-misc/curl::rindeal
+sys-apps/shadow::rindeal
+sys-apps/util-linux::rindeal
+dev-util/glib-utils::rindeal

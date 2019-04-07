@@ -1,0 +1,5 @@
+<dev-libs/efl-1.30 ~amd64
+<media-video/rage-1 ~amd64
+<x11-wm/enlightenment-0.30 ~amd64
+<x11-terms/terminology-2 ~amd64
+<dev-libs/wayland-1.11 ~amd64

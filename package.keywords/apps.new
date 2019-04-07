@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+<app-text/calibre-3.0 ~and64
+
+
+# required by app-office/scribus-1.4.6::gentoo
+=media-libs/libjpeg-turbo-1.5.1 ~amd64
+
+=media-libs/libbluray-1.0.0 ~amd64
+
+
+# WebTorrent
+net-p2p/webtorrent-desktop-bin ~amd64
+
+# inkspace
+<media-gfx/inkscape-0.93 ~amd64
+<media-gfx/scour-0.37 ~amd64
+<app-text/aspell-0.60.8 ~amd64

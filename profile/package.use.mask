@@ -1,0 +1,6 @@
+# gentoo-vm flag allows us to provide it without it breaking Gentoo
+dev-java/oracle-jdk-bin:9 -gentoo-vm
+dev-java/oracle-jdk-bin:11 -gentoo-vm
+dev-java/oracle-jre-bin:9 -gentoo-vm
+dev-java/openjdk-bin:11 -gentoo-vm
+dev-java/openjdk:11 -gentoo-vm

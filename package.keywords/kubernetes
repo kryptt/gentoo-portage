@@ -1,0 +1,24 @@
+=dev-go/go-bindata-0_pre20151023 ~amd64
+=app-emulation/containerd-1.2.2 ~amd64
+<=app-emulation/runc-1.0.0 ~amd64
+<app-emulation/docker-runc-1.1 ~amd64
+<app-emulation/docker-proxy-0.9 ~amd64
+<sys-process/tini-0.20 ~amd64
+<app-admin/helm-3 ~amd64
+=dev-python/certifi-2018.11.29 ~amd64
+
+app-emulation/docker ~amd64
+sys-cluster/minikube ~amd64
+sys-cluster/kubectl ~amd64
+
+<app-admin/terraform-0.12.0 ~amd64
+
+# required by vagrant (argument)
+<=dev-ruby/rake-12.4.0 ~amd64
+<=dev-ruby/rest-client-2.1 ~amd64
+=dev-ruby/hashicorp-checkpoint-0.1.5 ~amd64
+=dev-ruby/i18n-0.7.0-r2 ~amd64
+=dev-ruby/net-ssh-4.2.0 ~amd64
+=dev-ruby/net-ssh-5.0.2 ~amd64
+<=app-emulation/vagrant-2.2.0 ~amd64
+=dev-ruby/net-scp-1.2.1 ~amd64

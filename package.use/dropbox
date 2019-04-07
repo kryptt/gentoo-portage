@@ -1,0 +1,6 @@
+# required by dropbox (argument)
+#>=dev-qt/qtgui-5.6.1 -gles2
+#>=dev-qt/qtwidgets-5.6.1 -gles2
+#>=dev-qt/qtprintsupport-5.6.1 -gles2
+#>=dev-qt/qtopengl-5.6.1 -gles2
+#>=dev-qt/qtcore-5.6.1 icu

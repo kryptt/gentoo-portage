@@ -1,0 +1,12 @@
+net-p2p/amule upnp
+app-emulation/winetricks rar
+
+# required by deluge (argument)
+net-libs/libtorrent-rasterbar python
+dev-libs/boost python
+
+media-gfx/inkscape latex
+# required by latex+inkscape
+>=media-gfx/pstoedit-3.70-r1 plotutils
+
+net-analyzer/wireshark doc lz4 snappy lua androiddump ciscodump

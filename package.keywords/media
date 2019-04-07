@@ -1,0 +1,9 @@
+<media-video/ffmpeg-4.2 ~amd64
+<media-plugins/gst-plugins-libav-1.15 ~amd64
+<net-libs/srt-1.4 ~amd64
+
+<media-libs/babl-0.2 ~amd64
+<media-libs/gegl-0.5 ~amd64
+<media-libs/libmypaint-1.4 ~amd64
+<media-gfx/mypaint-brushes-1.4 ~amd64
+<media-gfx/gimp-4 ~amd64

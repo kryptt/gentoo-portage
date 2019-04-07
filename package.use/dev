@@ -1,0 +1,62 @@
+sys-devel/llvm clang gold ocaml python lldb
+sys-devel/gcc graphite pgo
+
+sys-devel/llvm LLVM_TARGETS: BPF NVPTX X86
+sys-devel/clang LLVM_TARGETS: BPF NVPTX X86
+dev-ml/llvm-ocaml LLVM_TARGETS: BPF NVPTX X86
+
+dev-libs/libgit2-glib ssh threads
+dev-libs/libgit2 ssh threads
+
+app-editors/emacs gtk3 gsettings gconf gfile libxml2 -motif gtk -athena -Xaw3d xft cairo toolkit-scroll-bars dynamic-loading
+app-editors/vim cscope lua luajit python ruby
+app-editors/gvim cscope lua luajit python ruby
+
+# Build thrift files for cpp, java, and python also
+dev-libs/thrift  cpp examples java -python
+dev-python/fastparquet lzo snappy brotli lz4
+app-arch/brotli python
+
+
+# QT requirements
+dev-libs/libpcre pcre16
+<dev-qt/qtgui-6 evdev
+dev-qt/qtwebengine widgets
+dev-qt/qtwebchannel qml
+
+dev-java/oracle-jdk-bin doc source jce commercial visualvm javafx nsplugin
+dev-java/openjdk gentoo-vm source doc
+
+# TODO: seems like these need to binary for now ?
+dev-java/sbt binary
+dev-lang/scala binary
+
+sys-libs/zlib abi_x86_32
+
+# required by dev-util/android-ndk-11c-r1::gentoo
+>=sys-libs/ncurses-5.9-r5:0 tinfo
+>=sys-libs/ncurses-5.9-r99 tinfo
+>=sys-libs/db-5.3.28-r2 abi_x86_32
+>=sys-libs/pam-1.2.1 abi_x86_32
+>=sys-devel/flex-2.6.1 abi_x86_32
+>=virtual/pam-0-r1 abi_x86_32
+>=sys-libs/cracklib-2.9.6-r1 abi_x86_32
+
+dev-lang/rust doc
+dev-lang/python pgo
+dev-lang/php gd
+
+#correct support for doxygen doc
+app-text/docbook-sgml-utils jadetex
+app-doc/doxygen dot
+
+dev-java/idea system-jre android groovy kotlin
+
+# required by app-shells/fish (argument)
+>=dev-libs/libpcre2-10.30 pcre32
+
+# required by app-editors/atom (argument)
+>=dev-libs/libxml2-2.9.8 icu
+
+# required by git-of-theseus
+>=dev-python/numpy-1.10.4 lapack

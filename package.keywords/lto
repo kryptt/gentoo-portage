@@ -1,0 +1,9 @@
+=app-portage/portage-bashrc-mv-16.0 ~amd64
+=sys-devel/gcc-config-1.9.1 ~amd64
+=app-shells/runtitle-2.10 ~amd64
+<sys-config/ltoize-2 ~amd64
+<sys-devel/gcc-9.0 **
+<sys-devel/binutils-2.32 ~amd64
+<sys-libs/glibc-2.28 ~amd64
+=dev-util/kbuild-0.1.9998.3149 ~amd64
+=media-libs/x264-0.0.20170701-r1 ~amd64

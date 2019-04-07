@@ -1,0 +1,9 @@
+app-crypt/gpgme python qt5
+
+# required by scribus (argument)
+sys-libs/zlib minizip
+
+# required by libreoffice
+dev-libs/xmlsec gcrypt nss
+
+app-office/libreoffice google googledrive pdfimport java

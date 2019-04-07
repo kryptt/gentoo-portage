@@ -1,0 +1,99 @@
+# recent kernel
+sys-kernel/gentoo-sources ~amd64
+
+# required by app-admin/eclean-kernel
+<=dev-python/pymountboot-0.3 ~amd64
+<=app-admin/eclean-kernel-0.5 ~amd64
+<=app-portage/layman-2.4 ~amd64
+<=app-portage/gentoolkit-0.3.3 ~amd64
+
+<sys-apps/util-linux-2.33 ~amd64
+
+# required by glibc
+=dev-lisp/clisp-2.49.92 ~amd64
+
+# required by app-portage/eix
+=app-portage/eix-0.32.4 ~amd64
+=app-shells/quoter-2.0_p2 ~amd64
+=app-shells/quoter-3.0_p2 ~amd64
+=app-shells/push-2.0 ~amd64
+
+<=sys-firmware/iwl7260-ucode-0.16 ~amd64
+<=sys-firmware/iwl3160-7260-bt-ucode-38 ~amd64
+
+=net-wireless/gobi_loader-0.7-r2 ~amd64
+
+#
+# required by wireguard (argument)
+<net-vpn/wireguard-2 ~amd64
+
+# network-manager plugins
+=net-misc/networkmanager-libreswan-1.2.6 ~amd64
+
+# move net-misc/logmein-hamachi net-vpn/logmein-hamachi
+<net-vpn/logmein-hamachi-2.2 ~amd64
+<net-vpn/haguichi-1.5 ~amd64
+
+=media-libs/libpng-1.6.32 ~amd64
+<x11-libs/gtk+-3.23 ~amd64
+<gnome-base/gnome-shell-3.19 ~amd64
+
+<app-misc/fluxgui-1.20 ~amd64
+
+<x11-drivers/nvidia-drivers-397 ~amd64
+<x11-misc/virtualgl-2.6 ~amd64
+
+<net-libs/gupnp-ui-0.2 ~amd64
+
+=dev-libs/nspr-4.19 ~amd64
+<=sys-process/tini-0.16.1 ~amd64
+
+# notifications
+=x11-libs/libtinynotify-0.2.1 ~amd64
+=x11-misc/sw-notify-send-1.2.1 ~amd64
+=x11-libs/libtinynotify-cli-1.2.1 ~amd64
+=x11-libs/libtinynotify-systemwide-0.1 ~amd64
+=x11-misc/tinynotify-send-1.2.1-r1 ~amd64
+
+<sys-fs/zfs-0.8 ~amd64
+<sys-fs/zfs-kmod-0.8 ~amd64
+<sys-kernel/spl-0.8 ~amd64
+<=sys-fs/dmg2img-1.6.5 ~amd64
+=sys-fs/hfsplusutils-1.0.4-r1 **
+<sys-fs/btrfs-progs-5 ~amd64
+<sys-fs/duperemove-0.12 ~amd64
+
+=sys-apps/bd-9999 ~amd64
+
+# encryption support
+=gnome-extra/gnome-encfs-9999 ~amd64
+=sys-apps/keyutils-1.5.10 ~amd64
+=sys-fs/cryfs-0.9.7 ~amd64
+=sys-fs/ecryptfs-utils-108-r1 ~amd64
+
+# required by dbeaver-bin (argument)
+=dev-db/dbeaver-bin-4.3.4 ~amd64
+=dev-db/dbeaver-bin-5.0.0 ~amd64
+
+# required by dev-db/mongodb-3.4.13::gentoo[tools]
+=app-admin/mongo-tools-3.6.2 ~amd64
+
+# required by net-misc/kafka-bin (argument)
+=net-misc/kafka-bin-1.0.0 ~amd64
+=net-misc/kafka-bin-1.1.0 ~amd64
+
+# required by hplip-plugin (argument)
+=net-print/hplip-plugin-3.17.10 ~amd64
+
+#required by systemd / wine
+=media-libs/vulkan-loader-1.1.70.0-r1 ~amd64
+
+# required for intel card opencl on llvm:6
+<dev-libs/beignet-1.3.3 ~amd64
+
+# required by clinfo (argument)
+=dev-util/clinfo-2.2.18.04.06 ~amd64
+
+=dev-python/setuptools-40.8.0 ~amd64
+
+=net-misc/curl-7.57.0 ~amd64

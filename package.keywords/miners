@@ -1,0 +1,9 @@
+=dev-cpp/libjson-rpc-cpp-0.7.0 ~amd64
+=dev-util/nvidia-cuda-toolkit-8.0.61 ~amd64
+=dev-util/nvidia-cuda-sdk-8.0.61 ~amd64
+=dev-libs/libbase58-0.1.4 ~amd64
+
+net-p2p/cudaminer ~amd64
+net-misc/cgminer ~amd64
+net-p2p/ethminer ~amd64
+net-misc/bfgminer ~amd64

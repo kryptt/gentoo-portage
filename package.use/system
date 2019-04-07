@@ -1,0 +1,85 @@
+# required for suspend
+dev-libs/libgcrypt static-libs
+dev-libs/libgpg-error static-libs
+dev-libs/lzo static-libs
+dev-libs/libx86 static-libs
+
+app-misc/tracker gstreamer -ffmpeg firefox-bookmarks
+
+sys-kernel/linux-firmware savedconfig
+
+app-shells/fzf bash-completion fish-completion pie tmux vim -neovim
+
+dev-libs/libappindicator python
+dev-qt/qtcore icu
+=dev-qt/qtwidgets-5.11.3 -gtk
+
+dev-libs/nss utils
+net-misc/networkmanager -gnutls connection-sharing
+net-wireless/wpa_supplicant ap
+net-dns/avahi autoipd gtk3
+sys-apps/systemd elfutils gcrypt gnuefi nat audit
+sys-boot/grub device-mapper
+sys-kernel/gentoo-sources symlink
+
+gnome-base/gvfs  archive bluray gphoto2 ios mtp samba
+sys-libs/tdb python
+sys-libs/ntdb python
+sys-libs/tevent python
+net-fs/samba client winbind
+
+net-misc/curl http2
+
+net-vpn/strongswan strongswan_plugins_gcm strongswan_plugins_ipseckey
+
+# required by aircrack-ng (argument)
+>=net-wireless/lorcon-0.0_p20150109 python
+
+# required by opam (argument)
+>=dev-ml/lablgtk-2.18.3 gnomecanvas
+
+# required by media-gfx/eog-3.20.4::gentoo
+>=dev-libs/libpcre-8.38-r1 abi_x86_32
+
+# required by app-arch/file-roller-3.20.4::gentoo
+>=sys-libs/binutils-libs-2.25.1-r2 abi_x86_32
+
+# required by gnome-base/nautilus-3.18.5::gentoo
+>=virtual/libelf-1 abi_x86_32
+>=virtual/libgudev-230 abi_x86_32
+>=dev-libs/libgudev-230-r1 abi_x86_32
+
+<=net-libs/libproxy-0.4.13-r2 -mono
+
+gnome-base/gdm audit xinerama fprint
+
+# required by x11-terms/terminator-0.97-r1::gentoo
+>=dev-libs/keybinder-0.3.1-r200:0 python
+>=x11-libs/vte-0.28.2-r207:0 python
+
+# required by libreoffice (argument)
+>=dev-db/postgresql-9.5.4 kerberos
+
+# required by spotify (argument)
+net-libs/liboauth -nss
+
+net-wireless/bluez extra-tools deprecated
+
+net-libs/libvncserver gcrypt
+net-misc/remmina rdp freerdp ssh telepathy vte vnc
+
+sys-fs/ecryptfs-utils gpg openssl pkcs11 python tpm
+app-crypt/sirikali ecryptfs
+
+app-i18n/ibus gtk3
+
+sys-fs/zfs -rootfs
+sys-fs/zfs-kmod -rootfs
+
+net-misc/iputils -caps -filecaps -gcrypt
+net-vpn/openvpn pkcs12 lz4
+
+net-print/cups -usb
+net-print/hplip snmp
+
+app-portage/portage-bashrc-mv -localepurge

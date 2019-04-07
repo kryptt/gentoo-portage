@@ -1,0 +1,6 @@
+app-emulation/virtualbox ~amd64
+app-emulation/virtualbox-extpack-oracle ~amd64
+app-emulation/virtualbox-additions ~amd64
+app-emulation/virtualbox-modules ~amd64
+=dev-util/kbuild-0.1.9998.3127 ~amd64
+<media-libs/libvpx-1.6 ~amd64

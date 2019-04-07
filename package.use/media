@@ -1,0 +1,31 @@
+app-text/poppler qt5
+dev-python/PyQt4 webkit
+dev-python/PyQt5 webkit
+dev-qt/qtwebkit printsupport
+media-video/mpv libmpv
+media-plugins/alsa-plugins -ffmpeg
+media-plugins/audacious-plugins -gtk scrobbler
+media-sound/audacious -gtk
+media-libs/libsdl2 gles
+media-tv/kodi bluray gles java samba sftp upnp vdpau -wayland -gbm X mysql
+media-video/ffmpeg aacplus gsm bluray celt amr amrenc fdk theora vpx v4l libass libcaca speex opus chromaprint gme libdrm openal opencl openssl openh264 srt ssh snappy samba
+media-video/libav speex opus gsm theora threads
+media-video/mplayer -sdl aalib bluray dvb faac faad libcaca samba speex theora v4l
+net-libs/libmicrohttpd messages
+net-misc/freerdp openh264
+virtual/ffmpeg opus gsm speex theora threads
+
+
+# required for plex client and other 32bit clients
+app-arch/snappy abi_x86_32
+dev-libs/libltdl abi_x86_32
+media-libs/chromaprint abi_x86_32
+media-libs/fdk-aac abi_x86_32
+media-libs/libcanberra abi_x86_32
+media-libs/game-music-emu abi_x86_32
+media-libs/libsdl2 abi_x86_32
+media-libs/nv-codec-headers abi_x86_32
+media-libs/openh264 abi_x86_32
+media-libs/opus abi_x86_32
+net-libs/libssh abi_x86_32
+net-libs/srt abi_x86_32

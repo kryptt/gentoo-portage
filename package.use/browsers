@@ -1,0 +1,14 @@
+dev-db/sqlite secure-delete
+media-libs/libvpx postproc
+
+media-libs/libvpx svc
+
+x11-libs/cairo opengl gles2
+net-libs/webkit-gtk gles2 egl -opengl webgl
+media-plugins/gst-plugins-vaapi gles2 -opengl
+media-libs/gst-plugins-base gles2 -opengl
+media-libs/gst-plugins-bad gles2 egl -gtk -opengl
+
+=net-libs/webkit-gtk-2.10.7 -webgl
+
+www-client/firefox clang gtk3 system-harfbuzz system-cairo system-icu system-jpeg system-libevent system-libvpx system-sqlite wifi hwaccel custom-cflags custom-optimization lto pgo

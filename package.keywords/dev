@@ -1,0 +1,106 @@
+app-shells/autojump ~amd64
+<app-shells/fzf-0.18 ~amd64
+=dev-libs/shflags-1.0.3 ~amd64
+=dev-vcs/git-flow-completion-0.4.1.0 ~amd64
+=dev-vcs/gitflow-0.4.1 ~amd64
+
+# dev-python/fastparquet
+<dev-python/python-lzo-1.13 ~amd64
+<dev-python/thrift-0.12 ~amd64
+<dev-python/fastparquet-0.2 ~amd64
+
+=virtual/emacs-26 ~amd64
+<app-editors/emacs-27 ~amd64
+
+# tags stuff
+dev-python/python-ctags ~amd64
+dev-util/global ~amd64
+
+=app-crypt/keybase-1.0.33 ~amd64
+
+dev-haskell/haskell-platform ~amd64
+dev-haskell/stack ~amd64
+
+<dev-util/boost-build-1.59 ~amd64
+<dev-libs/boost-1.59 ~amd64
+
+=sys-cluster/zookeepercli-1.0.10 ~amd64
+
+=dev-libs/thrift-0.12.0 ~amd64
+
+=dev-db/mysql-workbench-6.3.4-r2 ~amd64
+
+# required by dev-db/pgadmin4-3.5::gentoo
+=dev-python/psutil-5.5.0 ~amd64
+=dev-python/sshtunnel-0.1.4 ~amd64
+dev-db/pgadmin4 ~amd64
+
+<dev-db/mongodb-3.5 ~amd64
+<app-admin/mongo-tools-3.5 ~amd64
+dev-db/robomongo ~amd64
+
+x11-misc/zim ~amd64
+
+dev-util/android-ndk ~amd64
+dev-util/android-sdk-update-manager ~amd64
+dev-util/android-tools ~amd64
+
+<dev-libs/libuv-1.9.0 ~amd64
+
+app-editors/visual-studio-code ~amd64
+
+app-editors/atom::gentoo ~amd64
+# required by app-editors/atom-1.32.1::gentoo
+<dev-util/electron-2.1::gentoo ~amd64
+<media-libs/libvpx-1.8::gentoo ~amd64
+
+=dev-lang/ocaml-4.03.0-r1 ~amd64
+
+<dev-libs/libpcre-8.40 ~amd64
+
+dev-java/sbt ~amd64
+dev-java/sbt-bin ~amd64
+dev-lang/scala ~amd64
+
+=virtual/jdk-1.8.0-r1 ~amd64
+=virtual/jre-1.8.0-r1 ~amd64
+<app-emulation/genymotion-bin-3 ~amd64
+
+=www-apps/kibana-bin-4.5.4 ~amd64
+=app-misc/elasticsearch-1.7.5 ~amd64
+=app-misc/elasticsearch-2.4.1 ~amd64
+
+<dev-java/openjdk-12 ~amd64
+<dev-java/openjdk-bin-12 ~amd64
+=dev-java/maven-bin-3.2.5 ~amd64
+
+dev-java/leiningen-bin ~amd64
+
+# required by go
+=dev-go/glide-0.12.3 ~amd64
+=www-apps/chromedriver-bin-2.30 ~amd64
+=dev-lang/go-1.11.1 ~amd64
+
+app-admin/ansible ~amd64
+
+<dev-java/idea-2020 ~amd64
+
+<sys-apps/nix-3.0 ~amd64
+
+
+#git-of-theseus
+=dev-python/seaborn-0.9.0 ~amd64
+=dev-python/python-utils-2.3.0 ~amd64
+=dev-vcs/git-of-theseus-0.2.0 ~amd64
+=dev-python/progressbar2-3.35.2 ~amd64
+
+# llvm platform can be kept within unstable
+sys-devel/clang ~amd64
+sys-devel/clang-runtime ~amd64
+sys-devel/lld ~amd64
+sys-devel/llvm ~amd64
+sys-devel/llvmgold ~amd64
+sys-libs/compiler-rt ~amd64
+sys-libs/compiler-rt-sanitizers ~amd64
+sys-libs/libomp ~amd64
+#

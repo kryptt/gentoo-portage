@@ -1,0 +1,18 @@
+x11-themes/arc-theme ~amd64
+x11-themes/arc-icon-theme ~amd64
+x11-themes/vertex-theme ~amd64
+x11-themes/vertex-icon-theme ~amd64
+x11-themes/zuki-themes ~amd64
+
+=x11-libs/libvdpau-va-gl-0.4.2 ~amd64
+=x11-libs/libcryptui-3.12.2-r1 ~amd64
+
+=dev-lang/python-3.7.0-r1 ~amd64
+
+<=dev-libs/sway-0.16.0 ~amd64
+=dev-libs/wayland-protocols-1.13 ~amd64
+=dev-libs/wayland-1.14.0 ~amd64
+=dev-libs/wlc-0.0.11 ~amd64
+
+<x11-drivers/evdi-2 ~amd64
+<x11-drivers/displaylink-driver-6 ~amd64

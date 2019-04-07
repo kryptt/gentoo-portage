@@ -1,0 +1,5 @@
+# required by skype (argument)
+>=dev-qt/qtwebkit-4.8.6-r1:4 -exceptions
+x11-proto/scrnsaverproto abi_x86_32
+x11-libs/libXScrnSaver abi_x86_32
+dev-qt/qtdbus abi_x86_32

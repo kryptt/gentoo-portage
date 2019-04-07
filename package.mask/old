@@ -1,0 +1,8 @@
+<www-client/firefox-50
+<x11-wm/enlightenment-0.16
+<sys-kernel/gentoo-sources-4.8.17
+# Boring releases:
+=sys-kernel/gentoo-sources-4.16.6
+=www-client/firefox-59.0.3
+<sys-devel/libtool-2.4.3-r2
+<dev-lang/perl-5.18.0

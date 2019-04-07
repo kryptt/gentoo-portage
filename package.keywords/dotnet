@@ -1,0 +1,13 @@
+<dev-lang/mono-4.3 ~amd64
+<dev-dotnet/nuget-2.9 ~amd64
+<dev-dotnet/xdt-for-monodevelop-2.9 ~amd64
+
+# required by dotnet-cli (argument)
+<dev-util/lttng-ust-2.9 ~amd64
+<dev-dotnet/dotnet-cli-1.1 ~amd64
+
+
+# required by monodevelop (argument)
+dev-util/monodevelop ~amd64
+=www-servers/xsp-2014.12-r2014120900 ~amd64
+=dev-dotnet/referenceassemblies-pcl-4.6 ~amd64

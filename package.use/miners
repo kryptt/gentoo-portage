@@ -1,0 +1,4 @@
+x11-drivers/nvidia-drivers uvm
+net-misc/cgminer drillbit
+net-p2p/ethminer cuda
+net-misc/bfgminer scrypt

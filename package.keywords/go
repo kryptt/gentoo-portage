@@ -1,0 +1,2 @@
+# Required by kubectl
+=dev-lang/go-1.10.2 ~amd64

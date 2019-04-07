@@ -1,0 +1,3 @@
+dev-libs/efl -opengl drm gles2 egl wayland system-lz4 uv js -sdl -gnutls sndfile physics glib fbcon
+x11-wm/enlightenment wayland -enlightenment_modules_connman -enlightenment_modules_wl-weekeyboard enlightenment_modules_wl-desktop-shell enlightenment_modules_wl-drm enlightenment_modules_wl-x11 -enlightenment_modules_wl-fb enlightenment_modules_sysinfo enlightenment_modules_wl-buffer
+<=dev-libs/efl-1.21.0 -jpeg2k -fbcon
