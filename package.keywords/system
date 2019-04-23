@@ -28,7 +28,8 @@ sys-kernel/gentoo-sources ~amd64
 <net-vpn/wireguard-2 ~amd64
 
 # network-manager plugins
-=net-misc/networkmanager-libreswan-1.2.6 ~amd64
+# move net-misc/networkmanager-libreswan net-vpn/networkmanager-libreswan
+=net-vpn/networkmanager-libreswan-1.2.6 ~amd64
 
 # move net-misc/logmein-hamachi net-vpn/logmein-hamachi
 <net-vpn/logmein-hamachi-2.2 ~amd64

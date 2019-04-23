@@ -43,7 +43,7 @@ sys-libs/zlib abi_x86_32
 >=virtual/pam-0-r1 abi_x86_32
 >=sys-libs/cracklib-2.9.6-r1 abi_x86_32
 
-dev-lang/rust doc
+dev-lang/rust doc system-llvm wasm
 dev-lang/python pgo
 dev-lang/php gd
 
