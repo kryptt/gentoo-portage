@@ -65,4 +65,4 @@
 >=x11-libs/xcb-util-keysyms-0.4.0-r1 abi_x86_32
 >=x11-libs/xcb-util-renderutil-0.3.9-r2 abi_x86_32
 >=x11-libs/xcb-util-wm-0.4.1-r2 abi_x86_32
-app-emulation/wine-vanilla capi netapi openal pcap samba v4l vkd3d xinerama
+app-emulation/wine-vanilla capi netapi openal opencl pcap samba v4l vkd3d xinerama
