@@ -11,6 +11,7 @@ dev-libs/libgit2 ssh threads
 app-editors/emacs gtk3 gsettings gconf gfile libxml2 -motif gtk -athena -Xaw3d xft cairo toolkit-scroll-bars dynamic-loading
 app-editors/vim cscope lua luajit python ruby
 app-editors/gvim cscope lua luajit python ruby
+dev-util/electron pic
 
 # Build thrift files for cpp, java, and python also
 dev-libs/thrift  cpp examples java -python

@@ -1,5 +1,7 @@
 =app-text/asciidoc-8.6.10 PYTHON_SINGLE_TARGET: -* python2_7
 
+
+# until python 3.7 becomes standard
 dev-python/greenlet PYTHON_SINGLE_TARGET: -* python3_6 PYTHON_TARGETS: -* python3_6
 dev-python/neovim-python-client PYTHON_SINGLE_TARGET: -* python3_6 PYTHON_TARGETS: -* python3_6
 dev-python/setuptools PYTHON_SINGLE_TARGET: -* python3_6 PYTHON_TARGETS: python2_7 python3_6 python3_7
