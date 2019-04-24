@@ -11,4 +11,4 @@ media-libs/gst-plugins-bad gles2 egl -gtk -opengl
 
 =net-libs/webkit-gtk-2.10.7 -webgl
 
-www-client/firefox clang gtk3 system-harfbuzz system-cairo system-icu system-jpeg system-libevent system-libvpx system-sqlite wifi hwaccel custom-cflags custom-optimization lto pgo
+www-client/firefox gtk3 system-harfbuzz system-cairo system-icu system-jpeg system-libevent system-libvpx system-sqlite wifi hwaccel custom-cflags custom-optimization lto pgo

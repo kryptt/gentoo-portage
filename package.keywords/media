@@ -7,3 +7,11 @@
 <media-libs/libmypaint-1.4 ~amd64
 <media-gfx/mypaint-brushes-1.4 ~amd64
 <media-gfx/gimp-4 ~amd64
+
+#infinality fonts
+media-fonts/infinality-ultimate-meta ~amd64
+media-fonts/koruri ~amd64
+media-libs/fontconfig-ultimate ~amd64
+media-fonts/signika ~amd64
+media-fonts/courier-prime ~amd64
+
