@@ -4,6 +4,7 @@ dev-libs/libunistring abi_x86_32
 dev-libs/libusb-compat abi_x86_32
 dev-libs/ocl-icd abi_x86_32
 dev-qt/qtlockedfile qt5
+dev-libs/weston xwayland wayland-compositor
 dev-qt/qtsingleapplication qt5
 media-libs/graphene abi_x86_32
 media-libs/jpeg abi_x86_32

@@ -103,3 +103,7 @@ x11-misc/electricsheep ~amd64
 
 # required by plex-media-player (argument)
 <media-tv/plex-media-player-3 ~amd64
+
+# spotify
+=dev-util/patchelf-0.10 ~amd64
+
